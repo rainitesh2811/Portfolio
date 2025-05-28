@@ -11,6 +11,7 @@ import { getFirestore, collection, addDoc } from "firebase/firestore";
 
 // Firebase config
 const firebaseConfig = {
+<<<<<<< HEAD
   apiKey: "AIzaSyB-KFb1btXJFtYsInhAO7DgoapbkfqlvvM",
   authDomain: "portfolio-2811.firebaseapp.com",
   projectId: "portfolio-2811",
@@ -18,6 +19,15 @@ const firebaseConfig = {
   messagingSenderId: "24444668438",
   appId: "1:24444668438:web:90e46cffb472a14d8cc337",
   measurementId: "G-7Q6HTMT9T7"
+=======
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
+>>>>>>> 5cb5363 (changed)
 };
 
 const app = initializeApp(firebaseConfig);

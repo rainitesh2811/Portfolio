@@ -742,9 +742,3 @@ module.exports = {
 ```
 
 </details>
-
-## <a name="links">🔗 Links</a>
-<a>
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
-

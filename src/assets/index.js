@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.svg";
 import zidio from "./company/zidio.png";
 import parth from "./company/parth.png";
 import redstar from "./company/redstar.jpg";
-import united from "./company/united.png";
+import united from "./ul.png";
 
 import satu from "./satendra.jpg";
 
